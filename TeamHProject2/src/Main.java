@@ -47,7 +47,7 @@ public class Main {
 				
 				//Makes a coin variable to hold the value from its respective method
 				penny = p.pennyM();
-				nickel = n.nickelM();to
+				nickel = n.nickelM();
 				dime = d.dimeM();
 				quarter = q.quarterM();
 			
