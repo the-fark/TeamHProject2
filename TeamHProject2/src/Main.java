@@ -12,6 +12,7 @@ public class Main {
 		//The next two lines describe the program to the user
 		System.out.println("This program is a coin flipping game. The goal is to get exactly one dollar. You lose if the number goes above one dollar.");
 		System.out.println("A penny, a nickel, a dime, and a quarter will all be flipped simultaneously when you press enter to flip the coins.");
+		System.out.println("The value of a coin will be added to the balance if it lands on heads.");
 		
 		//These initialize the variables for the users response to whether they would like to repeat the game or not
 		char repeat;
