@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Main {
 	
-	public static void main(String[] args) throws IOException{
+	public static void main(String[] args) {
 		
 		//The next two lines describe the program to the user
 		System.out.println("This program is a coin flipping game. The goal is to get exactly one dollar. You lose if the number goes above one dollar.");
