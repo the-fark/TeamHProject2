@@ -3,10 +3,13 @@
 //Last updated 3/10/20
 package project2;
 public class quarter {
+
+	//Creates a flip object that shows whether the coin has landed on heads or tails
 	flipC flip = new flipC();
 	
 	public double quarterM() {
 		double value;
+		//Returns a value  of 0.25 if the coin lands on heads, or returns a value of 0 if the coin lands on tails
 		if (flip.flipM()) {
 			value = 0.25;
 		}else {
