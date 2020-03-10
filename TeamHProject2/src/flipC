@@ -3,10 +3,13 @@
 //Last updated 3/10/20
 package project2;
 import java.util.Random;
+
 public class flipC {
 
+	//Tbis returns a boolean value
 	public boolean flipM() {
 		boolean result;
+		//Creates a random object
 		Random r = new Random();
 		result = r.nextBoolean();
 		return result;
