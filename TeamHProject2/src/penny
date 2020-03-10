@@ -3,10 +3,14 @@
 //Last updated 3/10/20
 package project2;
 public class penny {
+
+	//Creates a flip object that tells whether the penny has landed on heads or tails
 	flipC flip = new flipC();
 	
 	public double pennyM() {
 		double value;
+		
+		//Returns 0.01 if the penny lands on heads and returns 0 if the penny lands on tails
 		if (flip.flipM()) {
 			value = 0.01;
 		}else {
