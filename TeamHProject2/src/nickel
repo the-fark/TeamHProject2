@@ -1,0 +1,18 @@
+//Matthew Sanders
+//This class will return the value of the nickel if the coin lands on heads when flipped, and return a value of 0 if the coin lands on tails.
+//Last updated 3/10/20
+package project2;
+public class nickel {
+	flipC flip = new flipC();
+	
+	public double nickelM() {
+		double value;
+		if (flip.flipM()) {
+			value = 0.05;
+		}else {
+			value = 0;
+		}
+		return value;
+	}
+
+}
