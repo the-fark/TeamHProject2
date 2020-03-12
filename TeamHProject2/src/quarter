@@ -1,16 +1,13 @@
-//Matthew Sanders
+//Matthew Sanders and Anthony Farkas
 //This class will return the value of the quarter if the coin lands on heads when flipped, and return a value of 0 if the coin lands on tails.
-//Last updated 3/10/20
+//Last updated 3/12/20
 package project2;
 public class quarter {
-
-	//Creates a flip object that shows whether the coin has landed on heads or tails
-	flipC flip = new flipC();
 	
 	public double quarterM() {
 		double value;
 		//Returns a value  of 0.25 if the coin lands on heads, or returns a value of 0 if the coin lands on tails
-		if (flip.flipM()) {
+		if (coin.flip()) {
 			value = 0.25;
 		}else {
 			value = 0;
