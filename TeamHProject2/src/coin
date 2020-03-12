@@ -1,18 +1,17 @@
-  //Matthew Sanders and Anthony Farkas
-//This class will return the value of the quarter if the coin lands on heads when flipped, and return a value of 0 if the coin lands on tails.
+//Matthew Sanders and Anthony Farkas
+//This class will return a boolean value for the flipping part of the coin flipping
 //Last updated 3/12/20
 package project2;
-public class quarter {
-	
-	public double quarterM() {
-		double value;
-		//Returns a value  of 0.25 if the coin lands on heads, or returns a value of 0 if the coin lands on tails
-		if (coin.flip()) {
-			value = 0.25;
-		}else {
-			value = 0;
-		}
-		return value;
-	}
+import java.util.Random;
 
+public class coin {
+
+	//This returns a boolean value
+	public static boolean flip() {
+		boolean result;
+		//Creates a random object
+		Random r = new Random();
+		result = r.nextBoolean();
+		return result;
+	}
 }
