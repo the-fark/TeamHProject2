@@ -1,6 +1,6 @@
-//Matthew Sanders and George Farkas
+//Matthew Sanders and Anthony Farkas
 //This program is a coin flipping game
-//Last updated 3/10/20
+//Last updated 3/12/20
 
 package project2;
 import java.util.Scanner;
