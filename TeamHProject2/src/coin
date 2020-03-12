@@ -1,13 +1,13 @@
-//Matthew Sanders
+//Matthew Sanders and Anthony Farkas
 //This class will return a boolean value for the flipping part of the coin flipping
-//Last updated 3/10/20
+//Last updated 3/12/20
 package project2;
 import java.util.Random;
 
-public class flipC {
+public class coin {
 
-	//Tbis returns a boolean value
-	public boolean flipM() {
+	//This returns a boolean value
+	public static boolean flip() {
 		boolean result;
 		//Creates a random object
 		Random r = new Random();
